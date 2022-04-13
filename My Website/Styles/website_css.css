@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FF9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size:medium;
+	margin: 10px;
+	padding: 5px;
+}
+
+#wrapper {
+	height: 150px auto;
+	width: 98%;
+	margin: 10px;
+	padding: 5px;
+}
+
+#header {
+	border: 2px solid #90C;
+	background-color: #96F;
+	height: 150px auto;
+	width: 98%;
+	margin: 10px;
+	padding: 5px;
+}
+
+#content {
+	height: 200px auto;
+	width: 98%;
+	margin: 10px;
+	padding: 5px;
+	clear: both;
+}
+
+#content img {
+	height: 200px auto;
+	width: 28%;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+}
+
+#tagline {
+	height: 200px auto;
+	width: 67%;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+}
+
+#subcontent {
+	height: 500px auto;
+	width: 98%;
+	margin: 10px;
+	padding: 5px;
+	clear: both;
+}
+
+#form {
+	border: 1px solid #999;
+	height: 500px auto;
+	width: 94%;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+#footer {
+	background-color: #609;
+	text-align: center;
+	height: 100px auto;
+	width: 98%;
+	margin: 10px;
+	padding: 5px;
+	clear: both;
+}
+
+.column {
+	height: 500px auto;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+.column2 {
+	height: 500px auto;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+.column3 {
+	height: 500px auto;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	
+}

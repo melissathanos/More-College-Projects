@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #CCCCCC;
+}
+
+table {
+	border: 5px solid #ffffff;
+}
+
+table.school {
+	border-collapse: collapse;
+}
+
+table.school th, table.school td {
+	padding: 4px;
+	border: 1px solid #000;
+}
+
+table.school th.stats {
+	padding: 4px;
+}
+
+table.school th {
+	font-size: medium;
+	text-align: center;
+	background: #948b54;
+	color: #eeeccc;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+table.school th.stats {
+	font-size: x-large;
+	text-align: center;
+	background: #ddd9c3;
+	color: #948b54;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+table.school caption {
+	color: #000000;
+	font-size: medium;
+	text-align: center;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+table.school td {
+	font-size: small;
+	text-align: center;
+	background: #ffffff;
+	padding: 2px;
+}
