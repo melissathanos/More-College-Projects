@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us at Scoots</title>
+    <meta charset="utf-8"/>
+    <link href="Styles/style1.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="header">
+      <div id="sitebranding">
+        <h1>Scoots.com</h1>
+      </div>
+      <div id="tagline">
+        <p>Whidbey Island Scooter Rental Shop - let's get scootin'!</p>
+      </div>
+    </div> <!-- end of header div -->
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="gallery.html">Image Gallery</a></li>
+      </ul>
+    </div> <!-- end of navigation div -->
+    <div id="bodycontent">
+      <h2>Contact Us</h2>
+      <p>To let us know about a tour you would like to see on our calendar, please use the form below.</p>
+      <form action="" method="post" class="contact">
+      	<fieldset>
+        	<legend>Tell Us About a Tour</legend>
+            <div>
+            	<label for="contactname" class="fixedwidth">Contact Name</label>
+                <input type="text" name="contactname" id="contactname" />
+            </div>
+            <div>
+            	<label for="telephone" class="fixedwidth">Telephone Number</label>
+                <input type="text" name="telephone" id="telephone" />
+            </div>
+            <div>
+            	<label for="email" class="fixedwidth">Email Address</label>
+                <input type="text" name="email" id="email" />
+            </div>
+            <div>
+            	<label for="tourname" class="fixedwidth">What's the tour called?</label>
+                <input type="text" name="tourname" id="tourname" />
+            </div>
+            <div>
+            	<label for="tourdate" class="fixedwidth">When's the tour happening?</label>
+                <input type="text" name="tourdate" id="tourdate" />
+            </div>
+            <div>
+            	<label for="region" class="fixedwidth">What region is the tour in?</label>
+                <select name="region" id="region">
+                	<option>South-west</option>
+                    <option>South-east</option>
+                    <option>Midlands</option>
+                    <option>Central</option>
+                    <option>Coast</option>
+                    <option>East</option>
+                    <option>North</option>
+                    <option>South</option>
+                    <option>West</option>
+                    <option>Washington</option>
+                    <option>Any Other State (see details below)</option>
+                 </select>
+            </div>
+            <div>
+            	<p>Please provide any other details you think will be useful to us in the text area below (it may save us calling or emailing you, and help avoid delays).</p>
+                <label for="details" class="fixedwidth">More details (as much as you think we'll need!)</label>
+                <textarea id="details" name="details" cols="30" rows="7"></textarea>
+            </div>
+            <div>
+            	<p>If we need to call you back for any more info, what would be the best time to call you on the number supplied?</p>
+                <input type="radio" name="timetocall" id="morning" value="Morning" />
+                <label for="morning">In the morning</label>
+                <br/>
+                 <input type="radio" name="timetocall" id="afternoon" value="Afternoon" />
+                <label for="afternoon">In the afternoon</label>
+                <br/>
+                 <input type="radio" name="timetocall" id="evening" value="Evening" />
+                <label for="evening">In the evening</label>
+                <br/>
+                 <input type="radio" name="timetocall" id="never" value="Never" checked="checked" />
+                <label for="never">No calls please</label>
+            </div>
+            <div>
+            	<p>Scoots may share information you give us here with other like-minded people or websites to promote the tour. Please confirm if you are happy for us to do this.</p>
+                <input type="checkbox" name="publicize" id="publicize" checked="checked" />
+                <label for="publicize">I am happy for this tour to be publicized outside of and beyond Scoots.com, where possible</label>
+            </div>
+            <div class="buttonarea">
+            	<input type="submit" value="Send Us the Info" />
+            </div>
+        </fieldset>
+      </form>
+      <p>If you need to get in touch urgently, please contact Rental Manager Seth Grey at 555-555-5555. For anything else, please <a href="mailto:seth@scoots.com">email seth@scoots.com</a>drop us a line by email, or stop by at: 555 Scooter Rd. Whidbey Island, WA 87398.</p>
+    </div><!-- end of bodycontent div -->
+  </body>
+</html>
